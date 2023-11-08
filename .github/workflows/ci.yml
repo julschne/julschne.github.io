@@ -49,8 +49,8 @@ jobs:
       # - name: Run tests 🧪
       #   run: npm run test
 
-      - name: Run build ⚒️
-        run: npm run build --if-present
+      # - name: Run build ⚒️
+      #   run: npm run build --if-present
 
       - name: Run generate 🧬
         run: npm run generate
@@ -65,9 +65,9 @@ jobs:
           # Create incremental commit instead of doing push force
           keep_history: true
           # Build directory to deploy
-          build_dir: /dist
+          build_dir: dist
           # Enable verbose output
           verbose: true
-          absolute_build_dir: true
+          # absolute_build_dir: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
