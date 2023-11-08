@@ -65,7 +65,7 @@ jobs:
           # Create incremental commit instead of doing push force
           keep_history: true
           # Build directory to deploy
-          build_dir: dist
+          build_dir: .dist
           # Enable verbose output
           verbose: true
         env:
