@@ -55,6 +55,9 @@ jobs:
       - name: Run generate 🧬
         run: npm run generate
 
+      - name: Print directory
+        run: ls
+
       - name: Deploy 🚀
         # You may pin to the exact commit or the version.
         # uses: crazy-max/ghaction-github-pages@c05ee637ec73429400a359430db8e5629f3f2564
