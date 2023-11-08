@@ -68,5 +68,6 @@ jobs:
           build_dir: .dist
           # Enable verbose output
           verbose: true
+          absolute_build_dir: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
