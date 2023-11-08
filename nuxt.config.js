@@ -3,11 +3,13 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   ssr: false,
-  css: ["vuetify/lib/styles/main.sass"],
+  css: ['vuetify/lib/styles/main.sass'],
+
   build: {
-    transpile: ["vuetify"],
+    transpile: ['vuetify']
   },
+
   vite: {
-    base: "/",
-  },
-});
+    base: '/'
+  }
+})
