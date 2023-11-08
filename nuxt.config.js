@@ -13,10 +13,5 @@ export default defineNuxtConfig({
     base: '/'
   },
 
-  modules: ['@nuxtjs/eslint-module', '@nuxtjs/i18n'],
-
-  i18n: {
-    /* module options */
-    vueI18n: './plugins/i18n.js'
-  }
+  modules: ['@nuxtjs/eslint-module']
 })
