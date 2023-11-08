@@ -10,6 +10,9 @@ on:
       - main
       - master
 
+permissions: 
+  contents: write
+
 jobs:
   ci:
     runs-on: ${{ matrix.os }}
