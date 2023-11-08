@@ -1,0 +1,1 @@
+import{_ as o,v as e,t as n}from"./entry.43a8e787.js";const t={mounted(){console.log("Component mounted")}};function c(r,s,l,a,p,_){return n(),e("h1",null,"Hello World!")}const m=o(t,[["render",c]]);export{m as default};
