@@ -13,5 +13,12 @@ export default defineNuxtConfig({
     base: '/'
   },
 
-  modules: ['@nuxtjs/eslint-module']
+  modules: ['@nuxtjs/eslint-module', '@nuxtjs/google-fonts'],
+
+  googleFonts: {
+    // Options
+    families: {
+      Roboto: [100, 300, 400, 500, 700, 900]
+    }
+  }
 })
