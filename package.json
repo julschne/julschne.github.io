@@ -18,7 +18,7 @@
     "lintfix": "prettier --write --list-different . && npm run lint --fix"
   },
   "devDependencies": {
-    "@babel/eslint-parser": "^7.22.15",
+    "@babel/eslint-parser": "^7.23.3",
     "@nuxt/devtools": "latest",
     "@nuxtjs/eslint-config": "^12.0.0",
     "@nuxtjs/eslint-config-typescript": "^12.1.0",
